@@ -1,4 +1,3 @@
-
 interface Event {
   id: string;
   title: string;
@@ -102,6 +101,71 @@ const events: Event[] = [
     category: "sports",
     organizerId: "2",
     organizerName: "Event Manager"
+  },
+  {
+    id: "7",
+    title: "Winter Jazz Soirée",
+    description: "A cozy evening with live jazz music and local gourmet treats. Perfect for winding down the year with friends and family in an intimate venue.",
+    date: "2025-12-11T19:00:00",
+    location: "Jazz Club, Denver",
+    price: 69.50,
+    availableTickets: 65,
+    imageUrl: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+    category: "concerts",
+    organizerId: "5",
+    organizerName: "Denver Jazz"
+  },
+  {
+    id: "8",
+    title: "Family Tech Expo",
+    description: "Interactive exhibits for all ages showcasing the latest gadgets, games, and learning tools. Robotics demos, VR zones, and workshops for kids and adults.",
+    date: "2025-08-29T10:00:00",
+    location: "Expo Center, Austin",
+    price: 54.00,
+    availableTickets: 400,
+    imageUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    category: "conferences",
+    organizerId: "3",
+    organizerName: "Tech4Good"
+  },
+  {
+    id: "9",
+    title: "Evening Yoga in the Park",
+    description: "A revitalizing group yoga session in the open air. All skill levels welcome. Bring your own mat and enjoy nature and mindfulness.",
+    date: "2025-06-14T18:30:00",
+    location: "Sunset Park, Miami",
+    price: 15.00,
+    availableTickets: 120,
+    imageUrl: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    category: "sports",
+    organizerId: "6",
+    organizerName: "Yoga Miami"
+  },
+  {
+    id: "10",
+    title: "Career Growth Bootcamp",
+    description: "An immersive one-day workshop filled with hands-on career development sessions, expert talks, and professional headshot opportunities.",
+    date: "2025-09-07T09:30:00",
+    location: "Business Center, Seattle",
+    price: 135.00,
+    availableTickets: 80,
+    imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    category: "workshops",
+    organizerId: "7",
+    organizerName: "LevelUp"
+  },
+  {
+    id: "11",
+    title: "Open Air Cinema Night",
+    description: "Enjoy classic and indie movies under the stars with popcorn and local food trucks. Don’t forget your blanket and friends!",
+    date: "2025-07-02T21:00:00",
+    location: "Riverfront Park, Nashville",
+    price: 12.00,
+    availableTickets: 500,
+    imageUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    category: "entertainment",
+    organizerId: "8",
+    organizerName: "Nashville Film"
   }
 ];
 
