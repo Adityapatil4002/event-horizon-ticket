@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Calendar, Search, MapPin, Clock } from "lucide-react";
@@ -6,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { getAllEvents, getEventCategories } from "@/services/eventService";
+import TestimonialsSlider from "@/components/TestimonialsSlider";
 
 interface Event {
   id: string;
@@ -176,6 +176,39 @@ const Index = () => {
                 </Card>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 px-4 bg-background/90 animate-fade-in">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-6 text-center">What Our Users Say</h2>
+          <TestimonialsSlider />
+        </div>
+      </section>
+
+      {/* Interactive How It Works Section */}
+      <section className="py-16 px-4 bg-black/40 animate-fade-in">
+        <div className="container mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10">
+          <div className="flex-1 mb-8 md:mb-0">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient-primary">How EventHorizon Works</h2>
+            <ol className="list-decimal ml-6 text-lg leading-9 text-foreground/80">
+              <li>Browse and discover official, legit events with robust search and filters.</li>
+              <li>Book tickets instantly and securely using our trusted system.</li>
+              <li>Get instant email confirmations & access your tickets any time.</li>
+              <li>For organizers, create & manage your own events and bookings easily.</li>
+              <li>Join interactive sessions—workshops, networking, live Q&As, and more!</li>
+            </ol>
+          </div>
+          <div className="flex-1 flex flex-col items-center space-y-8 md:items-start">
+            <div className="w-64 h-64 glass-card rounded-full flex items-center justify-center relative animate-pulse-glow">
+              <span className="text-5xl font-bold text-primary">🎤</span>
+              <span className="absolute bottom-4 right-5 text-primary"><b>Legit</b> & Secure</span>
+            </div>
+            <Button asChild className="w-full bg-gradient-to-r from-primary to-secondary text-background text-lg px-8 py-4 animate-fade-in transition-transform hover-scale">
+              <a href="/events">Find Your Event</a>
+            </Button>
           </div>
         </div>
       </section>

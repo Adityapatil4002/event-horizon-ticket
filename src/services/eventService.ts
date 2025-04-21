@@ -166,6 +166,67 @@ const events: Event[] = [
     category: "entertainment",
     organizerId: "8",
     organizerName: "Nashville Film"
+  },
+  // Add more legit, diverse events to appear realistic and trustworthy
+  {
+    id: "12",
+    title: "World Science Expo 2025",
+    description:
+      "A global exhibition featuring cutting-edge innovations, live demos from top scientists, and hands-on science activities for all ages. Endorsed by the Global Science Society.",
+    date: "2025-11-14T09:00:00",
+    location: "Convention Hall, Washington DC",
+    price: 189.00,
+    availableTickets: 600,
+    imageUrl:
+      "https://images.unsplash.com/photo-1542826438-8c1f15c65337?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80",
+    category: "conferences",
+    organizerId: "12",
+    organizerName: "Global Science Society",
+  },
+  {
+    id: "13",
+    title: "TEDx University Edition",
+    description:
+      "A licensed TEDx event, bringing together thought leaders and innovators for inspiring talks, engaging panels, and networking with changemakers. License #TEDX-2025-UNI-4342.",
+    date: "2025-09-01T13:30:00",
+    location: "Auditorium, Harvard University",
+    price: 59.99,
+    availableTickets: 350,
+    imageUrl:
+      "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1380&q=80",
+    category: "conferences",
+    organizerId: "13",
+    organizerName: "TEDx Harvard",
+  },
+  {
+    id: "14",
+    title: "National Health & Fitness Expo",
+    description:
+      "Meet certified trainers and attend workshops on holistic wellness, nutrition, and advanced sports medicine. Certified by National Health Board.",
+    date: "2025-08-22T10:00:00",
+    location: "Expo Center, Houston",
+    price: 40.00,
+    availableTickets: 800,
+    imageUrl:
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+    category: "sports",
+    organizerId: "14",
+    organizerName: "Natl. Health Board",
+  },
+  {
+    id: "15",
+    title: "Official City New Year Bash 2025",
+    description:
+      "Presented by City Council. Countdown party with legit live acts, fireworks, and exclusive guest DJs. Official event, all-access passes available.",
+    date: "2025-12-31T20:00:00",
+    location: "Downtown, Atlanta",
+    price: 100.00,
+    availableTickets: 2000,
+    imageUrl:
+      "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1480&q=80",
+    category: "entertainment",
+    organizerId: "15",
+    organizerName: "Atlanta City Council",
   }
 ];
 

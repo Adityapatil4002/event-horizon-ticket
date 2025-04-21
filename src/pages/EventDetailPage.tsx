@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { Calendar, MapPin, Clock, Ticket, Users, ChevronLeft, Share2 } from "lucide-react";
@@ -195,6 +194,21 @@ const EventDetailPage = () => {
           </div>
           
           <Separator className="bg-white/5" />
+
+          {/* New: How to Participate Section */}
+          <div className="glass-card bg-background/80 rounded-xl p-8 mb-6 animate-fade-in">
+            <h2 className="text-2xl font-bold mb-2 text-gradient-primary">How to Participate</h2>
+            <ul className="list-disc ml-6 space-y-2 text-lg text-foreground/80">
+              <li>Buy your tickets by clicking “Book Now”—available instantly after payment.</li>
+              <li>Access event materials and interactive content via your dashboard after booking.</li>
+              <li>
+                On the event day, check in with your e-ticket. For virtual events, join live Q&As, polls, and networking directly online.
+              </li>
+              <li>
+                Share your experience! Use the share button above to invite friends and family.
+              </li>
+            </ul>
+          </div>
 
           {/* Event Description */}
           <div className="prose prose-invert max-w-none opacity-80 animate-fade-in" style={{ animationDelay: '0.2s' }}>
